@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:  Venite Adoremus, sans-serif;
+    height: svh;
+    width: svw;
+    color: rgba(255, 255, 255, 0.753);
+    /* background-color: rgb(200, 147, 147); */
+}
+
+#backgroundVideo-earth
+{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}   
+
+main
+{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+}
+
+header
+{
+    background-color: rgba(4, 78, 77, 0.458);
+    height: 150px;
+    width: 100svw;
+}
+
+h1
+{
+    font-size: 50px;
+    padding: 45px 0 0 20px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.763);
+}
+
+
+ul
+{
+    margin-top: 28px;
+    margin-left: 250px;
+    list-style: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li, a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#hero-section
+{
+    margin: 40px 0;
+    display: flex;
+    font-size: 12px;
+    border: 5px double rgba(0, 0, 0, 0.278);
+    background-color: white;
+    color: black;
+   height: 380px;
+   width: 100%;
+    padding: 20px;
+}
+div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#suit-btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#hero-btn
+{
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    color: white;
+    margin-right: 100px;
+}
+#hero-btn:active
+{
+    scale: 1.1;
+}
+
+#earth, #mars, #jovian
+{
+    background-color: rgba(42, 83, 165, 0.682);
+    height: 200px;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px 0 0 100px;
+    border: 5px rgba(255, 255, 255, 0.596) solid;
+}
+
+h3
+{
+    font-size: 50px;
+    margin-left: 30px;    
+}
+
+select
+{
+    height: 20%;
+    width: 120px;
+    color: white;
+   font-family: Venite Adoremus;
+   background-color: rgba(4, 78, 77, 0.355);
+   margin-left: 100px;
+   border: 1px solid white;
+   border-radius: 5px;
+
+}
+
+button
+{
+    height: 20%;
+    width: 120px;
+    color: white;
+    background-color: rgba(4, 78, 77, 0.355);
+    font-family: Venite Adoremus;
+    margin-left:100px ;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer
+{
+    background-color: rgba(4, 78, 77, 0.355);
+    height: 75px;
+    padding-top: 20px;
+    text-align: center;
+}
